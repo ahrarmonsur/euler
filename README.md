@@ -4,7 +4,7 @@
 
 This is my progress through the Project Euler problems.
 
-I have undertaken the additional challenge to attempt each solution in as pythonic manner as I can (within reason).
+I have undertaken the additional challenge to attempt each solution as pythonically as I can (within reason).
 ᕙ(⇀‸↼‶)ᕗ
 
 
