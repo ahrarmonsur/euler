@@ -2,7 +2,7 @@
 
 ![personal banner](https://projecteuler.net/profile/ahrarmonsur.png)
 
-This is my progress through the Project Euler problems.
+This is my progress through the [Project Euler](https://projecteuler.net) problems.
 
 I have undertaken the additional challenge to attempt each solution as pythonically as I can (within reason).
 ᕙ(⇀‸↼‶)ᕗ
