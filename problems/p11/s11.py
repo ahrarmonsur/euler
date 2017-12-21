@@ -68,9 +68,3 @@ def eval_window(i, j, dim):
 
 
 print max(eval_window(i, j, dim) for i in range(grid.shape[1] - (dim -1)) for j in range(grid.shape[0] - (dim-1)))
-
-
-
-
-
-
