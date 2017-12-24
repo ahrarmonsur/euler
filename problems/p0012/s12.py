@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-Project Euler Problem 22
+Project Euler Problem 12
 Highly divisible triangular number
 Solved by Ahrar Monsur
 
