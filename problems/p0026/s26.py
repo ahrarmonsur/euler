@@ -60,7 +60,7 @@ def cycle_length(num):
 
 
 longest_num = longest_length = 0
-for i in range(2, 1001):
+for i in xrange(2, 1000):
     l = cycle_length(i)
     if l >= longest_length:
         longest_num, longest_length = i, l
