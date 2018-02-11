@@ -8,9 +8,8 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 Find the sum of all the primes below two million.
 """
 
-import math as m
-
 def sieve_of_eratosthenes(n):
+    import math as m
     not_primes = { j for i in xrange(2, int(m.ceil(n**0.5)+1)) for j in xrange(i**2, n, i) }
     return [p for p in xrange(2, n) if p not in not_primes]
 
