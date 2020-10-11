@@ -26,11 +26,14 @@ upper_n = 999999
 def fifth_power_sum(n):
     return sum(map(lambda x: int(x)**5, str(n)))
 
-for n in range(2, upper_n+1):
-    if n == fifth_power_sum(n):
-        candidates.append(n)
+def main():
+    for n in range(2, upper_n+1):
+        if n == fifth_power_sum(n):
+            candidates.append(n)
 
-print sum(candidates)
+    print sum(candidates)
+
+main()
 
 
 
