@@ -29,7 +29,6 @@ def main():
     prime_set = sieve_of_eratosthenes(1000000)
     circular_primes = set()
     for p in prime_set:
-        print p
         rotations = get_rotations(p)
         if all(map(lambda rot: rot in prime_set, rotations)):
             circular_primes.update(rotations)
