@@ -12,16 +12,14 @@ How many circular primes are there below one million?
 
 def sieve_of_eratosthenes(n):
     import math as m
-    not_primes = { j for i in xrange(2, int(m.ceil(n**0.5)+1)) for j in xrange(i**2, n, i) }
+    not_primes = {j for i in xrange(2, int(m.ceil(n**0.5)+1)) for j in xrange(i**2, n, i)}
     return [p for p in xrange(2, n) if p not in not_primes]
 
 def get_rotations(n):
     rotations = [n]
     str_n = str(n)
     for i in range(1, len(str_n)):
-        prefix = str_n[-i:]
-        suffix = str_n[:len(str_n)-i]
-        rotations.append(int(prefix+suffix))
+        rotations.append(int(str_n[-i:]+str_n[len(str_n)-1]))
 
     return rotations
 
